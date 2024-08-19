@@ -1,0 +1,55 @@
+@clr1: #fff;
+@clr2: #00adb5;
+@clr3: rgb(238, 238, 238);
+@clr4: #222831;
+@font1: "Poppins", sans-serif;
+@font2: "Oswald", sans-serif;
+
+// mixin
+
+.title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.txt{
+    color: @clr3;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.flex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-size: 100%;
+}
+
+body{
+    background: @clr4;
+    color: @clr1;
+}
+
+body, textarea, button, input{
+    font-family: @font1;
+}
+
+

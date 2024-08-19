@@ -1,0 +1,40 @@
+.main{
+    height: 100svh;
+
+    header{
+        padding-top: 20px;
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            .flex_between;
+
+            >a{
+                color: @clr3;
+                font-size: 24px;
+                font-family: @font2;
+            }
+
+            menu{
+                .flex_between;
+                li{
+                    margin: 0 48px;
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    a{
+                        .txt;
+                    }
+                }
+            }
+        }
+    }
+
+    >.container{
+        width: 1200px;
+        margin: 0 auto;
+        .flex_between;
+    }
+}
